@@ -1,0 +1,20 @@
+-- =============================================================================
+--   SECTION 8: STREAMLIT IN SNOWFLAKE
+--   Zero to Snowflake HOL — July 30, 2026
+-- =============================================================================
+--
+--   This section is done through the Snowsight UI, not a SQL worksheet.
+--
+--   Steps:
+--   1. Navigate to Projects → Workspaces → + → Streamlit App
+--   2. Configure:
+--        App name: Banking_Dashboard
+--        Database: TU30_ZERO_TO_SNOWFLAKE_LAB
+--        Schema:   RETAIL_BANKING_XX (your participant number)
+--   3. A compute pool is automatically assigned (no warehouse needed)
+--   4. Copy the Python code from the HOL app (Exercise 8.2) into the editor
+--   5. Click Run (top-left)
+--
+--   IMPORTANT: Copy the Python code from the HOL app's Exercise 8.2 code block.
+--   Do NOT copy from this SQL file — it will cause syntax errors in Streamlit.
+-- =============================================================================
